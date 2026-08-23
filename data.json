@@ -1,0 +1,362 @@
+{
+  "users": [
+    {
+      "id": "u_admin",
+      "name": "Administrator",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "u_demo",
+      "name": "Demo Candidate",
+      "email": "candidate@example.com",
+      "password": "candidate123",
+      "role": "candidate"
+    }
+  ],
+  "tests": [
+    {
+      "id": "demo_bank",
+      "title": "Banking Practice Demo",
+      "exam": "SBI/IBPS Style",
+      "duration": 30,
+      "positive": 1,
+      "negative": 0.25,
+      "published": false,
+      "createdAt": "2026-08-23T00:00:00.000Z",
+      "questions": [
+        {
+          "id": "demo1",
+          "number": 1,
+          "section": "Reasoning",
+          "directions": "",
+          "text": "If A is taller than B and B is taller than C, who is the shortest?",
+          "options": {
+            "A": "A",
+            "B": "B",
+            "C": "C",
+            "D": "Cannot be determined",
+            "E": "None"
+          },
+          "answer": "C",
+          "solution": "C is shorter than B, and B is shorter than A.",
+          "needsReview": false
+        },
+        {
+          "id": "demo2",
+          "number": 2,
+          "section": "Quantitative Aptitude",
+          "directions": "",
+          "text": "A train covers 120 km in 2 hours. What is its speed?",
+          "options": {
+            "A": "40 km/h",
+            "B": "50 km/h",
+            "C": "60 km/h",
+            "D": "70 km/h",
+            "E": "80 km/h"
+          },
+          "answer": "C",
+          "solution": "Speed = Distance / Time = 120 / 2 = 60 km/h.",
+          "needsReview": false
+        },
+        {
+          "id": "demo3",
+          "number": 3,
+          "section": "English Language",
+          "directions": "",
+          "text": "Choose the grammatically correct sentence.",
+          "options": {
+            "A": "He do not know.",
+            "B": "He does not know.",
+            "C": "He does not knows.",
+            "D": "He don't knows.",
+            "E": "He not know."
+          },
+          "answer": "B",
+          "solution": "With third-person singular subject 'he', use 'does not' followed by the base verb 'know'.",
+          "needsReview": false
+        }
+      ]
+    },
+    {
+      "id": "test_mt5io535_4ultf7",
+      "title": "SBI PO Mains Practice",
+      "exam": "SBI PO / IBPS",
+      "duration": 10,
+      "positive": 1,
+      "negative": 0.25,
+      "published": true,
+      "createdAt": "2026-08-23T07:59:48.161Z",
+      "questions": [
+        {
+          "id": "q_1_0",
+          "number": 1,
+          "section": "General",
+          "directions": "",
+          "text": "What is 15% of 200?",
+          "options": {
+            "A": "30",
+            "B": "25",
+            "C": "20",
+            "D": "35",
+            "E": "40"
+          },
+          "answer": "A",
+          "solution": "15% of 200 = 0.15 × 200 = 30.",
+          "sourcePage": null,
+          "needsReview": false
+        },
+        {
+          "id": "q_2_1",
+          "number": 2,
+          "section": "General",
+          "directions": "",
+          "text": "A train travels 180 km in 3 hours. What is its speed?",
+          "options": {
+            "A": "50 km/h",
+            "B": "55 km/h",
+            "C": "60 km/h",
+            "D": "65 km/h",
+            "E": "70 km/h"
+          },
+          "answer": "C",
+          "solution": "Speed = Distance ÷ Time = 180 ÷ 3 = 60 km/h.",
+          "sourcePage": null,
+          "needsReview": false
+        },
+        {
+          "id": "q_3_2",
+          "number": 3,
+          "section": "General",
+          "directions": "",
+          "text": "If CAT is coded as DBU, how is DOG coded using the same pattern?",
+          "options": {
+            "A": "EPH",
+            "B": "EPG",
+            "C": "FPH",
+            "D": "EOG",
+            "E": "DPH"
+          },
+          "answer": "A",
+          "solution": "Each letter is shifted forward by one: D→E, O→P, G→H.",
+          "sourcePage": null,
+          "needsReview": false
+        },
+        {
+          "id": "q_4_3",
+          "number": 4,
+          "section": "General",
+          "directions": "",
+          "text": "Choose the grammatically correct sentence.",
+          "options": {
+            "A": "He do not know.",
+            "B": "He does not know.",
+            "C": "He does not knows.",
+            "D": "He don't know.",
+            "E": "He not knows."
+          },
+          "answer": "B",
+          "solution": "The singular subject 'He' takes 'does not' followed by the base verb 'know'.",
+          "sourcePage": null,
+          "needsReview": false
+        },
+        {
+          "id": "q_5_4",
+          "number": 5,
+          "section": "General",
+          "directions": "",
+          "text": "A sum of Rs. 1000 is invested at 10% simple interest for 2 years. Find the interest.",
+          "options": {
+            "A": "Rs. 100",
+            "B": "Rs. 150",
+            "C": "Rs. 180",
+            "D": "Rs. 200",
+            "E": "Rs. 220"
+          },
+          "answer": "D",
+          "solution": "Simple Interest = P × R × T / 100 = 1000 × 10 × 2 / 100 = Rs. 200.",
+          "sourcePage": null,
+          "needsReview": false
+        },
+        {
+          "id": "q_6_5",
+          "number": 6,
+          "section": "General",
+          "directions": "",
+          "text": "Find the next number in the series: 2, 4, 8, 16, ?",
+          "options": {
+            "A": "24",
+            "B": "28",
+            "C": "30",
+            "D": "32",
+            "E": "36"
+          },
+          "answer": "D",
+          "solution": "Each term is multiplied by 2, so the next term is 16 × 2 = 32.",
+          "sourcePage": null,
+          "needsReview": false
+        },
+        {
+          "id": "q_7_6",
+          "number": 7,
+          "section": "General",
+          "directions": "",
+          "text": "Which one is the odd one out?",
+          "options": {
+            "A": "Apple",
+            "B": "Mango",
+            "C": "Carrot",
+            "D": "Banana",
+            "E": "Orange"
+          },
+          "answer": "C",
+          "solution": "Carrot is a vegetable; the others are fruits.",
+          "sourcePage": null,
+          "needsReview": false
+        },
+        {
+          "id": "q_8_7",
+          "number": 8,
+          "section": "General",
+          "directions": "",
+          "text": "A shopkeeper buys an article for Rs. 800 and sells it for Rs. 920. What is the profit percentage?",
+          "options": {
+            "A": "10%",
+            "B": "12%",
+            "C": "15%",
+            "D": "18%",
+            "E": "20%"
+          },
+          "answer": "C",
+          "solution": "Profit = 920 − 800 = 120. Profit% = 120/800 × 100 = 15%.",
+          "sourcePage": null,
+          "needsReview": false
+        },
+        {
+          "id": "q_9_8",
+          "number": 9,
+          "section": "General",
+          "directions": "",
+          "text": "If all roses are flowers and some flowers are red, which conclusion is definitely true?",
+          "options": {
+            "A": "All roses are red.",
+            "B": "Some roses are red.",
+            "C": "All red things are roses.",
+            "D": "All roses are flowers.",
+            "E": "No rose is red."
+          },
+          "answer": "D",
+          "solution": "The first statement directly establishes that every rose is a flower.",
+          "sourcePage": null,
+          "needsReview": false
+        },
+        {
+          "id": "q_10_9",
+          "number": 10,
+          "section": "General",
+          "directions": "",
+          "text": "Choose the word closest in meaning to 'Rapid'.",
+          "options": {
+            "A": "Slow",
+            "B": "Quick",
+            "C": "Weak",
+            "D": "Late",
+            "E": "Small"
+          },
+          "answer": "B",
+          "solution": "'Rapid' means quick or fast.",
+          "sourcePage": null,
+          "needsReview": false
+        }
+      ]
+    }
+  ],
+  "attempts": [
+    {
+      "id": "attempt_mt5isuz0_q7dkvg",
+      "testId": "test_mt5io535_4ultf7",
+      "userId": "u_demo",
+      "submittedAt": "2026-08-23T08:03:28.332Z",
+      "score": 7.5,
+      "correct": 8,
+      "wrong": 2,
+      "unanswered": 0,
+      "total": 10,
+      "answers": {
+        "q_1_0": "A",
+        "q_2_1": "C",
+        "q_3_2": "A",
+        "q_4_3": "B",
+        "q_5_4": "D",
+        "q_6_5": "D",
+        "q_7_6": "C",
+        "q_8_7": "C",
+        "q_9_8": "C",
+        "q_10_9": "C"
+      },
+      "details": [
+        {
+          "questionId": "q_1_0",
+          "selected": "A",
+          "correct": true,
+          "answer": "A"
+        },
+        {
+          "questionId": "q_2_1",
+          "selected": "C",
+          "correct": true,
+          "answer": "C"
+        },
+        {
+          "questionId": "q_3_2",
+          "selected": "A",
+          "correct": true,
+          "answer": "A"
+        },
+        {
+          "questionId": "q_4_3",
+          "selected": "B",
+          "correct": true,
+          "answer": "B"
+        },
+        {
+          "questionId": "q_5_4",
+          "selected": "D",
+          "correct": true,
+          "answer": "D"
+        },
+        {
+          "questionId": "q_6_5",
+          "selected": "D",
+          "correct": true,
+          "answer": "D"
+        },
+        {
+          "questionId": "q_7_6",
+          "selected": "C",
+          "correct": true,
+          "answer": "C"
+        },
+        {
+          "questionId": "q_8_7",
+          "selected": "C",
+          "correct": true,
+          "answer": "C"
+        },
+        {
+          "questionId": "q_9_8",
+          "selected": "C",
+          "correct": false,
+          "answer": "D"
+        },
+        {
+          "questionId": "q_10_9",
+          "selected": "C",
+          "correct": false,
+          "answer": "B"
+        }
+      ]
+    }
+  ]
+}
